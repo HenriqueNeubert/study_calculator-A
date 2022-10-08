@@ -6,6 +6,7 @@ $warning:       #f36e15;
 $danger:        #e24e4e; 
 $light:         #ffffff;  
 $dark:          #464646;
+$darkB:         #252525;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -17,7 +18,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "darkB":      $darkB
 );
 
 $container-max-widths: (

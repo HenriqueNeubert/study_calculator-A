@@ -1,3 +1,22 @@
-body{
-  background-color: $secondary;
+#calculator{
+  width: 300px;
+}
+
+#screen{
+  height: 35px;
+}
+
+a{
+  width: 100%;
+  height: 50px;
+
+  border: 2px solid $dark;
+  color: $dark;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  &:hover{
+    color: $white;
+    background-color: $danger;
+  }
 }

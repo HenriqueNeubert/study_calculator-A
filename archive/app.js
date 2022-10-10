@@ -9,7 +9,7 @@ const two = document.querySelector('#sevn')
 const one = document.querySelector('#sevn')
 const zero = document.querySelector('#sevn')
 
-
+  
 const dot = document.querySelector('#sevn')
 const minus = document.querySelector('#sevn')
 const equal = document.querySelector('#sevn')

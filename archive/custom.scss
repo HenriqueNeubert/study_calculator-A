@@ -6,6 +6,7 @@ $warning:       #F2D096;
 $danger:        #ED8975; 
 $light:         #ffffff;  
 $dark:          #464646;
+$gray:          #797878;
 $darkB:         #252525;
 // scss-docs-end theme-color-variables
 
@@ -19,6 +20,7 @@ $theme-colors: (
   "danger":     $danger,
   "light":      $light,
   "dark":       $dark,
+  "gray":       $gray,
   "darkB":      $darkB
 );
 

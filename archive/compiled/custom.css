@@ -10954,6 +10954,7 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 #calculator a:hover {
+  color: #464646 !important;
   background-color: #B2E7E8;
 }
 #calculator #equal {

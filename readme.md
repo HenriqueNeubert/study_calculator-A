@@ -1,3 +1,8 @@
+# REFERENCE
+
+## GITHUB = https://github.com/matheusbattisti/js_calc
+## YOUTUBE = https://www.youtube.com/watch?v=KCfaPZ2t2yA&t=1214s
+
 _________________________________________
 # BASIC COMMANDS
 
@@ -83,6 +88,8 @@ _________________________________________
 
   ## subject:
     Breve resumo da mudança, escrito no tempo verbal presente. Começa com letra minúscula e não há ponto final.
+
+
 
 
 

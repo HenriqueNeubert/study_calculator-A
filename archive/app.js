@@ -12,10 +12,18 @@ class Calculator{
 //EVENTS
 
 buttons.forEach((btn) => {
-  //? (e) é o objeto do evento
+  //? (e) é o objeto do evento, neste caso a ancora que foi clicada
   btn.addEventListener('click', (e) => {
     const value = e.target.innerText;
-    console.log(value);
+    
+    //? lembrando que quando o e vem da ancora, chega como string 
+    //? o + nesse caso, tenta converter o valor que foi recebido em number
+    //? sendo assim apenas entra no if aqueles e que forem number (>= 0)
+    if(+value >= 0 || value === '.'){
+      console.log(value);
+    }else{
+      console.log('op' + value);
+    }
   });
 });
 

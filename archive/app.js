@@ -1,15 +1,24 @@
-const nine = document.querySelector('#sevn')
-const eight = document.querySelector('#sevn')
-const seven = document.querySelector('#sevn')
-const six = document.querySelector('#sevn')
-const five = document.querySelector('#sevn')
-const four = document.querySelector('#sevn')
-const three = document.querySelector('#sevn')
-const two = document.querySelector('#sevn')
-const one = document.querySelector('#sevn')
-const zero = document.querySelector('#sevn')
+//SELECTION
+const currentOperationText = document.querySelector('#current-operations')
+const previousOperationText = document.querySelector('#previous-operations')
+const buttons = document.querySelectorAll('#buttons-container a')
 
-  
+
+//FUNCTIOS
+class Calculator{
+
+}
+
+//EVENTS
+
+buttons.forEach((btn) => {
+  //? (e) é o objeto do evento
+  btn.addEventListener('click', (e) => {
+    const value = e.target.innerText;
+    console.log(value);
+  });
+});
+
 const dot = document.querySelector('#sevn')
 const minus = document.querySelector('#sevn')
 const equal = document.querySelector('#sevn')
